@@ -170,7 +170,10 @@ public class ArrCharOps {
         int len2 = str2.length();
         int minLen = Math.min(len1, len2);
         boolean flag = false;
-        // abc abcd 
+        
+        if (len1 == 0 || len2 == 0) {
+            return -2;
+        }
 
         for (int i = 0; i < minLen; i++){
             char ch1 = str1.charAt(i), ch2 = str2.charAt(i);
