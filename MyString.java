@@ -32,7 +32,6 @@ public class MyString {
         // Replace the following statement with your code
         return lowerStr;
     }
-    // hiuhyhello   hello
     /** If str1 contains str2, returns true; otherwise returns false. */
     public static boolean contains(String str1, String str2) {
 
